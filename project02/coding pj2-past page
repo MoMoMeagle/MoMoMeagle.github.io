@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Past Page</title>
+<style>
+body{
+  font-family: 'Ubuntu', sans-serif;
+margin:0px;
+color:#009688;
+  }
+
+
+  #rectangle{
+    top:0px;
+    left:0px;
+    width:250px;
+    height:1500px;
+    background:#2d3037;
+    position:fixed;
+}
+#rectangle .nav{
+margin-top: 650px;
+margin-left:20px;
+position:fixed;
+
+}
+#rectangle a{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+}
+
+#rectangle a.st:hover{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+  transform: scale(1.1);
+}
+
+#rectangle a.sto:hover{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+  transform: scale(1.1);
+}
+
+
+#rectangle a.stt:hover{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+  transform: scale(1.1);
+}
+
+#rectangle a.stth:hover{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+  transform: scale(1.1);
+}
+
+img{
+  margin-left: 300px;
+  align: left;
+  display:block;
+  margin-bottom: 50px;
+}
+h3{
+
+  font-size: 30pt;
+  margin-top: 80px;
+  margin-left: 300px;
+}
+P{
+  max-width: 800px;
+  margin-left: 300px;
+  line-height: 30px;
+  color:#bababa;
+  margin-bottom: 200px;
+  margin-top: 0px;
+
+}
+img.one{
+ width:30%;
+ height: auto;
+ margin-top: -20px;
+}
+img.second{
+ width:30%;
+ height: auto;
+}
+img.third{
+ width:65%;
+ height: auto;
+}
+img.yi{
+  margin-left: 1200px;
+  margin-bottom: 150px;
+  width:5%;
+  height: auto;
+}
+.connect{
+  margin-top: 250px;
+
+}
+.connect a{
+  margin-left: 300px;
+  color:#009688;
+}
+.connect a.left{
+  margin-left: 700px;
+  margin-bottom: 500px;
+  color:#009688;
+}
+.connect a.left:hover{
+  color:#00c7ec;
+}
+.connect a.right:hover{
+  color:#00b3ba;
+}
+
+
+
+</style>
+</head>
+
+<body>
+  <p>
+
+
+    <div id="rectangle">
+      <div class="nav">
+                <a class="st" href=" " style="text-decoration:none">Home</a>
+                <a class="sto" href="#seco" style="text-decoration:none">Classic Submenu</a>
+                <a class="stt" href="#sect" style="text-decoration:none">Flat Submenu</a>
+                <a class="stth" href="#secth" style="text-decoration:none">Shopping Submenu</a>
+              </div>
+    </div>
+
+  <div class="content">
+    <div id="seco">
+        <img class="one" src="Asset 201.jpg" alt="past 01">
+        <h3>CLASSIC SUBMENU</h3>
+        <p>The old version of submenu had a physical affect when you click the menu, and you can see the shadow and high light border when around the nevigation
+        </p>
+        <img class="yi" src="Asset 9202.jpg" alt="past 01">
+      </div>
+
+    <div id="sect">
+        <img class="second" src="Asset 301.jpg" alt="past 01">
+        <h3>FLAT SUBMENU</h3>
+        <p>Compare to the Clsssic submenu, this version get ride of the physicak affect border and being flat. Also the section seperate line has became longer
+        </p>
+        <img class="yi" src="Asset 9202.jpg" alt="past 01">
+      </div>
+
+<div id="secth">
+        <img class="third" src="Asset 401.jpg" alt="past 01">
+        <h3>SHOPPING SUBMENU</h3>
+        <p>The old shopping submenu was set on the side of a web page, and it was long and complicated because when you select on a wrong option, you meed to go back to the very top level and chose again
+        </p>
+      </div>
+</div>
+</p>
+
+<div class="connect">
+    <a class="left" href="http://yoursite.com/" style="text-decoration:none">FUTURE</a>
+      <a class="right" href="http://yoursite.com/" style="text-decoration:none">PRESENT</a>
+</div>
+
+
+
+</body>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Future Page</title>
+<style>
+body{
+  font-family: 'Ubuntu', sans-serif;
+margin:0px;
+color:#00c7ec;
+  }
+
+
+  #rectangle{
+    top:0px;
+    left:0px;
+    width:250px;
+    height:1500px;
+    background:#2d3037;
+    position:fixed;
+}
+#rectangle .nav{
+margin-top: 650px;
+margin-left:20px;
+position:fixed;
+
+}
+#rectangle a{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+}
+
+#rectangle a.st:hover{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+  transform: scale(1.1);
+}
+
+#rectangle a.sto:hover{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+  transform: scale(1.1);
+}
+
+
+#rectangle a.stt:hover{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+  transform: scale(1.1);
+}
+
+#rectangle a.stth:hover{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+  transform: scale(1.1);
+}
+
+img{
+  margin-left: 300px;
+  align: left;
+  display:block;
+  margin-bottom: 50px;
+}
+
+
+
+h3{
+
+  font-size: 30pt;
+  margin-top: 80px;
+  margin-left: 300px;
+}
+P{
+  max-width: 800px;
+  margin-left: 300px;
+  line-height: 30px;
+  color:#bababa;
+  margin-bottom: 200px;
+  margin-top: 0px;
+
+}
+img.one{
+ width:10%;
+ height: auto;
+ margin-top: -20px;
+}
+img.second{
+ width:30%;
+ height: auto;
+}
+img.third{
+ width:30%;
+ height: auto;
+}
+img.four{
+ width:45%;
+ height: auto;
+}
+img.five{
+ width:45%;
+ height: auto;
+}
+img.yi{
+  margin-left: 1200px;
+  margin-bottom: 100px;
+  width:5%;
+  height: auto;
+}
+.connect{
+  margin-top: 250px;
+
+}
+.connect a{
+  margin-left: 300px;
+  color:#00c7ec;
+}
+.connect a.left{
+  margin-left: 700px;
+  margin-bottom: 500px;
+  color:#00c7ec;
+}
+.connect a.left:hover{
+  color:#00b3ba;
+}
+.connect a.right:hover{
+  color:#009688;
+}
+
+
+
+</style>
+</head>
+
+<body>
+  <p>
+
+
+    <div id="rectangle">
+      <div class="nav">
+                <a class="st" href=" " style="text-decoration:none">Home</a>
+                <a class="sto" href="#seco" style="text-decoration:none">Hand Gesture</a>
+                <a class="stt" href="#sect" style="text-decoration:none">Two Dimension</a>
+                <a class="stth" href="#secth" style="text-decoration:none">How It Work</a>
+              </div>
+    </div>
+
+  <div class="content">
+    <div id="seco">
+        <img class="one" src="Asset 102.jpg" alt="past 01">
+        <h3>HAND GESTURE</h3>
+        <p>With the developmrnt of VR technology, I assume that we will finally to a point where people apply hand gesture for every command
+        </p>
+        <img class="yi" src="Asset 9002.jpg" alt="past 01">
+      </div>
+
+    <div id="sect">
+        <img class="second" src="four-side.gif" alt="past 01">
+        <h3> TWO-DIMENSION</h3>
+        <p>The hand gesture for present is focusing on two-dimension which means that you could mobe your hand based on x-ray and y-ray, but there is no z-ray
+        </p>
+        <img class="yi" src="Asset 9002.jpg" alt="past 01">
+      </div>
+
+<div id="secth">
+        <img class="third" src="push-deep.gif" alt="past 01">
+        <h3>HOW IT WORK</h3>
+        <p>There dimension is going to be applied in the future, where you could also apply command based on z-ray, and you will able to push and pull. At the same time, the website page is going
+          to have the ability being pull out and push in
+        </p>
+        <img class="four" src="Untitled-21_1.gif" alt="past 01">
+        <p>When you push in the submenu, it will float a secondary space where you could sweep left and right
+        </p>
+        <img class="five" src="Untitled-22.gif" alt="past 01">
+        <p>When you pull back the submenu, you will allow to pull the submeu out and place it whereever you want so that you don not need to go back to find the submenu
+        </p>
+      </div>
+</div>
+</p>
+
+<div class="connect">
+    <a class="left" href="http://yoursite.com/" style="text-decoration:none">PRESENT</a>
+      <a class="right" href="http://yoursite.com/" style="text-decoration:none">PAST</a>
+</div>
+
+
+
+</body>

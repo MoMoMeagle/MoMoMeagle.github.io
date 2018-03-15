@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Past Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+var nav = document.getElementById("nav");
+var navlinks = nav.getElementsByTagName("a");
+
+function toggleNav() {
+  nav.classList.contains("active")
+    ? nav.classList.remove("active")
+    : nav.classList.add("active");
+}
+
+document.getElementById("nav-icon").addEventListener("click", function(e) {
+  e.preventDefault();
+  toggleNav();
+});
+
+for (var i = 0; i < navlinks.length; i++) {
+  navlinks[i].addEventListener("click", function() {
+    toggleNav();
+  });
+}
+
+</script>
+
+<style>
+body{
+  font-family: 'Ubuntu', sans-serif;
+margin:0px;
+color:#009688;
+  }
+  #rectangle{
+    top:0px;
+    left:0px;
+    width:250px;
+    height:2000px;
+    background:#2d3037;
+    position:fixed;
+}
+img{
+  margin-left: 300px;
+  align: left;
+  display:block;
+  margin-bottom: 50px;
+}
+h3{
+
+  font-size: 30pt;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+P{
+  max-width: 800px;
+  margin-left: 300px;
+  line-height: 30px;
+  color:#bababa;
+  margin-bottom: 100px;
+
+}
+img.one{
+ width:30%;
+ height: auto;
+ margin-top: 80px;
+}
+img.second{
+ width:34%;
+ height: auto;
+}
+img.third{
+ width:65%;
+ height: auto;
+}
+img.yi{
+  margin-left: 1200px;
+  margin-bottom: 150px;
+  width:5%;
+  height: auto;
+}
+
+nav {
+  mix-blend-mode: difference;
+  z-index: 100;
+}
+nav ul {
+  position: fixed;
+  top: 60px;
+  right: 5px;
+  height: 100vh;
+  visibility: hidden;
+  pointer-events: none;
+  list-style: none;
+  width: 35px;
+}
+nav ul li {
+  font: bold 1.5rem "Work Sans", "Arial Black", Gadget, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 0.75em 0;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+}
+nav.active ul {
+  visibility: visible;
+  pointer-events: initial;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.nav-icon {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: transparent;
+  cursor: pointer;
+  display: inline-block;
+  height: 35px;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  -webkit-transition: background: 0.3s;
+  transition: background: 0.3s;
+  width: 35px;
+}
+.nav-icon span {
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  background: red;
+  display: block;
+  height: 3px;
+  right: 5px;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+.nav-icon span:before, .nav-icon span:after {
+  width: 100%;
+  height: 3px;
+  background: red;
+  content: "";
+  display: block;
+  left: 0;
+  position: absolute;
+}
+.nav-icon span:before {
+  top: -8px;
+}
+.nav-icon span:after {
+  bottom: -8px;
+}
+.active .nav-icon span {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+
+
+
+
+
+</style>
+</head>
+
+<body>
+
+  <nav id="nav">
+<button class="nav-icon" id="nav-icon"><span></span></button>
+<ul>
+<li><a href="#Classicsubmenu">Classic submenu</a></li>
+<li><a href="#Flatsubmenu">Flat submenu</a></li>
+<li><a href="#Shoppingsubmenu">Shopping submenu</a></li>
+</ul>
+</nav>
+
+  <p>
+    <div id="rectangle"></div>
+  <div>
+    <div id=Classicsubmenu>
+        <img class="one" src="Asset 201.jpg" alt="past 01">
+        <h3>CLASSIC SUBMENU</h3>
+        <p>The old version of submenu had a physical affect when you click the menu, and you can see the shadow and high light border when around the nevigation
+        </p>
+      </div>
+<div id=Flatsubmenu>
+        <img class="yi" src="Asset 9202.jpg" alt="past 01">
+        <img class="second" src="Asset 301.jpg" alt="past 01">
+        <h3>FLAT SUBMENU</h3>
+        <p>Compare to the Clsssic submenu, this version get ride of the physicak affect border and being flat. Also the section seperate line has became longer
+        </p>
+      </div>
+<div id=Shoppingsubmenu>
+        <img class="yi" src="Asset 9202.jpg" alt="past 01">
+        <img class="third" src="Asset 401.jpg" alt="past 01">
+        <h3>FLAT SUBMENU</h3>
+        <p>Compare to the Clsssic submenu, this version get ride of the physicak affect border and being flat. Also the section seperate line has became longer
+        </p>
+      </div>
+
+
+
+
+</div>
+
+</p>
+
+
+</body>

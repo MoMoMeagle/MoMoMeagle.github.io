@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Present Page</title>
+<style>
+body{
+  font-family: 'Ubuntu', sans-serif;
+margin:0px;
+color:#00b3ba;
+  }
+
+
+  #rectangle{
+    top:0px;
+    left:0px;
+    width:250px;
+    height:1500px;
+    background:#2d3037;
+    position:fixed;
+}
+#rectangle .nav{
+margin-top: 650px;
+margin-left:20px;
+position:fixed;
+
+}
+#rectangle a{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+}
+
+#rectangle a.st:hover{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+  transform: scale(1.1);
+}
+
+#rectangle a.sto:hover{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+  transform: scale(1.1);
+}
+
+
+#rectangle a.stt:hover{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+  transform: scale(1.1);
+}
+
+#rectangle a.stth:hover{
+  color:#ffffff;
+  display:block;
+  line-height: 50px;
+  transform: scale(1.1);
+}
+
+img{
+  margin-left: 300px;
+  align: left;
+  display:block;
+  margin-bottom: 50px;
+}
+
+
+
+h3{
+
+  font-size: 30pt;
+  margin-top: 80px;
+  margin-left: 300px;
+}
+P{
+  max-width: 800px;
+  margin-left: 300px;
+  line-height: 30px;
+  color:#bababa;
+  margin-bottom: 200px;
+  margin-top: 0px;
+
+}
+img.one{
+ width:25%;
+ height: auto;
+ margin-top: -20px;
+}
+img.second{
+ width:25%;
+ height: auto;
+}
+img.third{
+ width:55%;
+ height: auto;
+}
+
+img.yi{
+  margin-left: 1200px;
+  margin-bottom: 100px;
+  width:5%;
+  height: auto;
+}
+.connect{
+  margin-top: 250px;
+
+}
+.connect a{
+  margin-left: 300px;
+  color:#00b3ba;
+}
+.connect a.left{
+  margin-left: 700px;
+  margin-bottom: 500px;
+  color:#00b3ba;
+}
+.connect a.left:hover{
+  color:#009688;
+}
+.connect a.right:hover{
+  color:#00c7ec;
+}
+
+
+
+</style>
+</head>
+
+<body>
+  <p>
+
+
+    <div id="rectangle">
+      <div class="nav">
+                <a class="st" href=" " style="text-decoration:none">Home</a>
+                <a class="sto" href="#seco" style="text-decoration:none">Changes On Phone</a>
+                <a class="stt" href="#sect" style="text-decoration:none">New Way To Hide</a>
+                <a class="stth" href="#secth" style="text-decoration:none">Mega Menu</a>
+              </div>
+    </div>
+
+  <div class="content">
+    <div id="seco">
+        <img class="one" src="Asset 9312.jpg" alt="past 01">
+        <h3>CHANGES ON PHONE</h3>
+        <p>Phone has become a part of our life, and it plays a big role in our life. The submeu become more flat and simple, the arrow replaced by a outling stroke
+        </p>
+        <img class="one" src="Asset 602.jpg" alt="past 01">
+
+        <p>The attachment with submenu also developed new ways, here is an example of iphone 3D touch
+        </p>
+        <img class="yi" src="Asset 9202.jpg" alt="past 01">
+      </div>
+
+    <div id="sect">
+        <img class="second" src="Asset 502.jpg" alt="past 01">
+        <h3> NEW WAY TO HIDE</h3>
+        <p>Apps come up with some new ways to hide the submenu, instead of only having drop down menu, we could get to submenu by sweep
+        </p>
+        <img class="yi" src="Asset 9202.jpg" alt="past 01">
+      </div>
+
+<div id="secth">
+        <img class="third" src="Asset 7902.jpg" alt="past 01">
+        <h3>MEGA MENU</h3>
+        <p>Mega menus (sometimes spelled “megamenus”) are a type of expandable menu in which many choices are displayed in a two-dimensional dropdown layout. They are an excellent design choice for accommodating a large number of options or for revealing lower-level site pages at a glance
+        </p>
+      </div>
+
+
+</div>
+</p>
+
+<div class="connect">
+    <a class="left" href="http://yoursite.com/" style="text-decoration:none">PAST</a>
+      <a class="right" href="http://yoursite.com/" style="text-decoration:none">FUTURE</a>
+</div>
+
+
+
+</body>

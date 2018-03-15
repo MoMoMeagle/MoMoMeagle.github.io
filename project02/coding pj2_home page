@@ -226,15 +226,15 @@ a.future:hover{
   </svg>
 
 <div class="links" style="margin-top: 200px;">
-  <a class="past" href="http://yoursite.com/" style="text-decoration:none">PAST</a>
+  <a class="past" href="file:///Users/yumenggao/Documents/GitHub/momomeagle.github.io/project02/coding%20pj2-past%20page" style="text-decoration:none">PAST</a>
 
 
 
-  <a class="present" href="http://yoursite.com/" style="text-decoration:none">PRESENT</a>
+  <a class="present" href="file:///Users/yumenggao/Documents/GitHub/momomeagle.github.io/project02/coding%20pj2-present" style="text-decoration:none">PRESENT</a>
 
 
 
-  <a class="future" href="http://yoursite.com/" style="text-decoration:none">FUTURE</a>
+  <a class="future" href="file:///Users/yumenggao/Documents/GitHub/momomeagle.github.io/project02/coding%20pj2-future" style="text-decoration:none">FUTURE</a>
 </div>
 
 

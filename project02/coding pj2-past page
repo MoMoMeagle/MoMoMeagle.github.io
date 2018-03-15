@@ -131,7 +131,7 @@ img.yi{
 
     <div id="rectangle">
       <div class="nav">
-                <a class="st" href=" " style="text-decoration:none">Home</a>
+                <a class="st" href="file:///Users/yumenggao/Documents/GitHub/momomeagle.github.io/project02/coding%20pj2_home%20page " style="text-decoration:none">Home</a>
                 <a class="sto" href="#seco" style="text-decoration:none">Classic Submenu</a>
                 <a class="stt" href="#sect" style="text-decoration:none">Flat Submenu</a>
                 <a class="stth" href="#secth" style="text-decoration:none">Shopping Submenu</a>
@@ -165,8 +165,8 @@ img.yi{
 </p>
 
 <div class="connect">
-    <a class="left" href="http://yoursite.com/" style="text-decoration:none">FUTURE</a>
-      <a class="right" href="http://yoursite.com/" style="text-decoration:none">PRESENT</a>
+    <a class="left" href="file:///Users/yumenggao/Documents/GitHub/momomeagle.github.io/project02/coding%20pj2-future" style="text-decoration:none">FUTURE</a>
+      <a class="right" href="file:///Users/yumenggao/Documents/GitHub/momomeagle.github.io/project02/coding%20pj2-present" style="text-decoration:none">PRESENT</a>
 </div>
 
 
